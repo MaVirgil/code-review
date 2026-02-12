@@ -29,7 +29,7 @@ public class Main {
         }
 
         int sum = 0;
-        for (int i = 0; i <= numbers.size(); i++) {
+        for (int i = 0; i < numbers.size(); i++) {
             sum += numbers.get(i);
         }
 
