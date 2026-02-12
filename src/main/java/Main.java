@@ -42,7 +42,7 @@ public class Main {
      * Assumes grades are between 0 and 100.
      */
     public static int findMax(List<Integer> numbers) {
-        int max = Integer.MAX_VALUE;
+        int max = numbers.get(0)
 
         for (Integer num : numbers) {
             if (num > max) {
