@@ -34,7 +34,7 @@ public class Main {
         }
 
         // Integer division results in truncation before casting to double
-        return sum / numbers.size();
+        return (double) (sum / numbers.size());
     }
 
     /**
